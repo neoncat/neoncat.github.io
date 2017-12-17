@@ -25,11 +25,10 @@ body {
     top: 30%;
     font-size: 50px;
     z-index: 9999;
-    text-shadow: 0 0 3px rgba(0,0,0,.5);
 }
         
 .neon a{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
 }
 
@@ -65,7 +64,7 @@ body {
     text-decoration:  none;
     color: #fff;
     transition: .2s ease-in;
-
+    font-family: 'Nunito', sans-serif;
 }
 
 .menu .menu-buttons li a:hover{
@@ -85,7 +84,7 @@ body {
     font-weight: 100;
 }
 
-@media(max-width: 320px){
+@media(max-width: 480px){
     
     .neon {
          text-align: left;
@@ -101,11 +100,7 @@ body {
         height: 100%;
     }
     
-    .menu .menu-buttons li a{
-        font-size: 12px;
-    }
-    
     .menu .menu-buttons li{
-         padding: 2px 5px;
+         padding: 10px 0;
     }
 }
